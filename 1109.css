@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+    font-family: '맑은 고딕';
+}
+
+.conA {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url("https://postfiles.pstatic.net/MjAyMjA4MzBfMjA5/MDAxNjYxODI3NDk0ODgw.2KAzWS5vWkeEY6myV68sRczsAsNikwtvOgVZQImawfEg.Bxf7PQgGmQPFwKZDEEK9RdySMjLk9j_FXYFNnA56izgg.JPEG.ifasuua7021/1.jpg?type=w966");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    color: rgba(53, 53, 53);
+    text-align: center;
+}
+
+.conA h1 {
+    font-size: 10vw;
+    border: solid 3px #fff;
+    border-radius: 6px;
+    background-color: rgba;
+    text-shadow: 0px 0px 20px #fff;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/*conB*/
+.conB .container {
+    text-align: center;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.conB h2 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.conB p {
+    font-size: 1rem;
+    line-height: 1;
+    /*조절해야함*/
+    margin-top: 0;
+    opacity: 0.6;
+    margin-bottom: 60px;
+}
+
+.conB a {
+    color: rgb(182, 134, 76);
+    text-decoration: none;
+}
+
+.conB .fa-solid {
+    display: inline-block;
+    font-size: 40px;
+    background-color: aqua;
+    width: 2em;
+    height: 2em;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 2em;
+    color: #fff;
+}
+
+@media(min-width:768px) {
+    .conB .container {
+        display: flex;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
+
+.conC {
+    background-color: aquamarine;
+    padding: 30px;
+    color: #fff;
+}
+
+.conC text {
+    padding: 30px;
+}
+
+.conC h2 {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+.conC a {
+    background-color: rgb(216, 52, 115);
+    border-radius: 6px;
+    border: 3px solid black;
+    text-decoration: none;
+    padding: 10px 30px;
+    font-size: 14px;
+}
+
+.conC .photo {
+    min-height: 200px;
+    background-image: url(https://postfiles.pstatic.net/MjAyMjA4MzBfMjA5/MDAxNjYxODI3NDk0ODgw.2KAzWS5vWkeEY6myV68sRczsAsNikwtvOgVZQImawfEg.Bxf7PQgGmQPFwKZDEEK9RdySMjLk9j_FXYFNnA56izgg.JPEG.ifasuua7021/1.jpg?type=w966);
+    background-size: cover;
+    background-position: center;
+}
+
+@media(min-width:768px) {
+    .conC .container {
+        display: flex;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .conC .photo {
+        flex: 3;
+    }
+
+    .conC .text {
+        flex: 3;
+    }
+}
+
+
+.conD {
+    
+    padding: 30px;
+    color: black;
+}
+
+.conD text {
+    padding: 30px;
+}
+
+.conD h2 {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+.conD a {
+    background-color: rgb(216, 52, 115);
+    border-radius: 6px;
+    border: 3px solid black;
+    text-decoration: none;
+    padding: 10px 30px;
+    font-size: 14px;
+}
+
+.conD .photo {
+    min-height: 200px;
+    background-image: url(https://postfiles.pstatic.net/MjAyMjA4MzBfMjA5/MDAxNjYxODI3NDk0ODgw.2KAzWS5vWkeEY6myV68sRczsAsNikwtvOgVZQImawfEg.Bxf7PQgGmQPFwKZDEEK9RdySMjLk9j_FXYFNnA56izgg.JPEG.ifasuua7021/1.jpg?type=w966);
+    background-size: cover;
+    background-position: center;
+}
+
+@media(min-width:768px) {
+    .conD .container {
+        display: flex;
+        max-width: 1000px;
+        margin: 0 auto;
+        flex-direction: row-reverse;
+    }
+
+    .conD .photo {
+        flex: 3;
+    }
+
+    .conD .text {
+        flex: 3;
+    }
+}
+
+.footA {
+    background-color: rgb(166, 149, 177);
+    color: white;
+    text-align: center;
+}
+
+.footA a {
+    text-decoration: none;
+    color: white;
+}
